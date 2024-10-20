@@ -12,7 +12,7 @@ const nextConfig = withPlugins([withTM], {
   images: {
     unoptimized: true,
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/tools' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/xtools' : '',
   redirects: process.env.NODE_ENV === 'development' ? async () => {
     return [
       {
